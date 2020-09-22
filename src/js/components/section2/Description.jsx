@@ -6,6 +6,7 @@ import TextAndPhotoSecond from '../section2/TextAndPhotoSecond';
 import TextAndPhotoThird from '../section2/TextAndPhotoThird';
 import TextAndPhotoForth from '../section2/TextAndPhotoForth';
 import TextAndPhotoFifth from '../section2/TextAndPhotoFifth';
+import Specification from '../section2/Specification'
 
 export default function Description() {
     return (
@@ -17,6 +18,7 @@ export default function Description() {
                 <TextAndPhotoThird />
                 <TextAndPhotoForth />
                 <TextAndPhotoFifth />
+                <Specification />
             </div>
             <div className="space col-lg-2"></div>
         </div>
