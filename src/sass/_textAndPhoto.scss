@@ -1,0 +1,35 @@
+@import '../sass//utils/all';
+
+.text-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    margin-top: 50px;
+    }
+    
+.header-desc{
+    @include font-size(1.2);
+    height: fit-content;
+    h1{
+        margin: 30px 0 30px 0;
+        font-weight: 300;
+    }
+    
+}
+
+.about{
+    @include font-size(0.8);
+    height: fit-content;
+    p{
+        font-weight: 200;
+        a{
+            color: blue;
+        }
+    }
+}
+
+.divide{
+    margin-bottom: 20px;
+}

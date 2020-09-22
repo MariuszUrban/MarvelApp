@@ -7,12 +7,11 @@ import Computer from "../../../img/Bitmap.png";
 export default function OutstandingIntelligence() {
   return (
     <div className="outstanding col-lg-12">
-      <div className="logo space col-lg-1">
+      <div className="logo space col-lg-2">
         <img src={Logo} alt="logo"/>
       </div>
-      <div className="content col-lg-10">
+      <div className="content col-lg-8">
         <div className="text col-lg-6">
-          <div className="square">
             <div className="header product-desc">
               <h1 className="header-main">
                 Yoga S740 (14) 
@@ -35,15 +34,13 @@ export default function OutstandingIntelligence() {
                 technologią Dolby Atmos®.{" "}
               </p>
             </div>
-          </div>
+          
         </div>
         <div className="computer col-lg-6">
-          <div className="square">
             <img className='img' src={Computer} alt="computer" />
-          </div>
         </div>
       </div>
-      <div className="space col-lg-1"></div>
+      <div className="space col-lg-2"></div>
     </div>
   );
 }
