@@ -63,3 +63,18 @@
     display: flex;
     justify-content: flex-end;
 }
+
+.list{
+    width: 100%;
+    padding-bottom: 50px;
+    padding-left: 1.5em;
+    ul{
+        li{
+            list-style-type: decimal;
+            @include font-size(0.8);
+            margin-top: 10px;
+            letter-spacing: 2px;
+            font-weight: 300;
+        }
+    }   
+}
