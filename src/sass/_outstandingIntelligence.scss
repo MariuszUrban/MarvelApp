@@ -1,0 +1,89 @@
+@import './utils/all';
+
+.outstanding{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+  height: 100%;
+  width: 100%;
+  img{
+    height: 30%;
+  }
+}
+
+.content{
+   height: 100%;
+   width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.square{
+  height: 60%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header{
+  height: fit-content;
+  letter-spacing: 0.12rem;
+
+}
+
+.product-desc{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #FFFFFF;
+}
+
+.description{
+  height: fit-content;
+  margin-top: 15px;
+}
+
+.computer{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.img{
+  width: 100%;
+  height: 100%;
+}
+.header-main{
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  @include font-size(1.3);
+}
+  
+
+.desc{
+  color: #FFFFFF;
+  @include font-size(0.6);
+  line-height: 15px;
+  width: fit-content;
+  text-align: left;
+}
