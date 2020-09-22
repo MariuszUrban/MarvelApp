@@ -1,6 +1,5 @@
 import React from 'react';
 import Main from './js/Main' 
-import './/sass/_app.scss';
 
 function App() {
   return (
